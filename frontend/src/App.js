@@ -65,7 +65,7 @@ function App() {
               <i className="fa fa-bars"></i>
             </button>
             <Link className="brand" to="/">
-              amazona
+              amazon
             </Link>
           </div>
           <div>
@@ -314,7 +314,7 @@ function App() {
         </main>
         <footer className="row center">
           {userInfo && !userInfo.isAdmin && <ChatBox userInfo={userInfo} />}
-          <div>All right reserved</div>{' '}
+          <div>2019-2023, Amazon</div>{' '}
         </footer>
       </div>
     </BrowserRouter>
